@@ -3,5 +3,4 @@
     cq:styleElements="[div,section,article,main,aside,header,footer]"
     jcr:primaryType="cq:Component"
     jcr:title="Footer Proxy Component"
-    sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
     componentGroup="My Site - Content"/>
