@@ -23,4 +23,8 @@
         <p class="cmp-helloworld__item-label">Model message:</p>
         <pre class="cmp-helloworld__item-output"data-cmp-hook-helloworld="model">${model.message}</pre>
     </div>
+    <div data-sly-use.runmode="com.mysite.core.returnrunmode.Runmodes" data-sly-test="${runmode.runmode}">
+        <h3>Runmode: </h3>
+        <h3>${runmode.runmode}</h3>
+    </div>
 </div>
